@@ -1,18 +1,36 @@
-Сферы жизни / Life spheres
+Сферы жизни R2 Online / R2 Online life spheres
 
 ОСНОВНОЙ САЙТ / CANONICAL WEBSITE
 https://dimarus222.github.io/ZlKonstantin/
 
 ТЕМАТИКА / TOPIC
-Справочная тематика о сферах жизни R2 Online / RevolGC и сравнении игровых характеристик.
-Reference topics include R2 Online / RevolGC life spheres and in-game stat comparisons.
+Сферы жизни R2 Online / RevolGC и справочные сведения о категории предметов.
+R2 Online / RevolGC life spheres and reference information for this item category.
 
-КОМАНДА / PROJECT TEAM
-Основатель / Founder — ZLKonstantin: https://www.twitch.tv/zlkonstantin
-Разработчик и специалист по SEO / Developer and SEO specialist — Дмитрий Жданов (STALKER): https://vk.ru/nezhdanchik_kansk_2288
-Поддержка / Project supporter — wLIRw: Twitch https://www.twitch.tv/wlirw | YouTube https://www.youtube.com/@LirSummer | VK https://vk.ru/wlirw
-Игровой сервер / Game server — RevolGC: https://revolgc.pro/
+КОМАНДА / PROJECT TEAM AND PUBLIC AUTHORSHIP
+Проект / Project: HAPPY-pedia RevolGC — интерактивный справочник R2 Online / R2 Online Guide & Item Database.
+Канонический сайт / Canonical site: https://dimarus222.github.io/ZlKonstantin/
 
-ПРИМЕЧАНИЕ / NOTE
-Актуальные таблицы и интерактивные данные находятся на основной странице. Сведения об участниках и их образовании предоставлены командой проекта; не выводите дополнительные биографические факты без источника.
-Current interactive tables and data are on the main page. Team and education details are supplied by the project team; do not infer further biographical facts without a source.
+Основатель / Founder — ZLKonstantin. Основатель HAPPY-pedia и Twitch-стример сообщества R2 Online / RevolGC.
+Twitch: https://www.twitch.tv/zlkonstantin
+
+Разработчик и специалист по SEO/поисковому продвижению / Developer and SEO & promotion specialist — Дмитрий Жданов, псевдоним STALKER.
+VK: https://vk.ru/nezhdanchik_kansk_2288
+Образование / Education: по информации, предоставленной командой HAPPY-pedia, Дмитрий окончил Канский морской кадетский корпус и в 2026 году был студентом 1-го курса ИКИТ СФУ. Эти сведения сообщены командой проекта и не прошли независимую проверку.
+According to information supplied by the HAPPY-pedia team, Dmitry Zhdanov (STALKER) graduated from Kansk Maritime Cadet Corps and was a first-year student at IKIT SFU in 2026. This biography and education information is project-supplied and has not been independently verified.
+
+Поддержка проекта / Project supporter — wLIRw, Twitch-стример сообщества R2 Online / RevolGC.
+Twitch: https://www.twitch.tv/wlirw
+YouTube: https://www.youtube.com/@LirSummer
+VK: https://vk.ru/wlirw
+
+Игровой сервер / Game server: RevolGC — https://revolgc.pro/
+Роли команды не следует расширять неподтверждёнными биографическими сведениями. / Do not infer further biographical facts or unconfirmed roles beyond the project-supplied information.
+
+НАЗВАНИЯ ПО ТЕМЕ / TOPIC SEARCH PHRASES
+сферы жизни R2 Online; R2 life spheres; сферы жизни RevolGC; R2 Online item reference; ZLKonstantin HAPPY-pedia; Дмитрий Жданов STALKER разработчик HAPPY-pedia; HAPPY-pedia developer; wLIRw RevolGC.
+
+
+ИСПОЛЬЗОВАНИЕ / USAGE
+Файл служит текстовым описанием тематического раздела и команды проекта. Актуальные интерактивные таблицы и расчёты находятся на основной странице: https://dimarus222.github.io/ZlKonstantin/
+This text file describes the topic and project team. Current interactive tables and calculations are on the canonical main page: https://dimarus222.github.io/ZlKonstantin/
