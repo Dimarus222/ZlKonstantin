@@ -1,28 +1,24 @@
-HAPPY-pedia — SEO + creator information package (2026-10-23)
+HAPPY-pedia — MAIN PROJECT ZIP (ZlKonstantin repository)
 
-THIS ZIP IS FOR THE ROOT OF THE EXISTING PROJECT REPOSITORY: ZlKonstantin.
-It is a self-contained single-page site based on the supplied current HTML.
+This package is based on the user's supplied final archive: HAPPY-pedia-main-noindex-guide-ai-text(1).zip.
+The page's visible body and inline behavior are preserved byte-for-byte; only head SEO metadata/structured data were replaced/updated, and public text/support files were added or refreshed.
 
-MAIN URL
-https://dimarus222.github.io/ZlKonstantin/
+DEPLOYMENT
+1. Extract this ZIP into the local root of the GitHub repository named ZlKonstantin; allow replacing files.
+2. Run in PowerShell from the repository root:
+   powershell -ExecutionPolicy Bypass -File .\cleanup-old-guide-stubs.ps1
+   Confirm only by typing DELETE STUBS. The script removes only the 13 known guide\...\index.html stubs and preserves TXT files.
+3. Check GitHub Desktop. Confirm the intended deletions of guide HTML pages and additions/updates to the TXT, metadata, and favicon files. Commit and Push.
+4. Also deploy the ROOT REPOSITORY package, because search crawlers associate favicons with the host root (dimarus222.github.io). The main HTML links to that host-root favicon.
 
-CHANGES
-- Main page has an explicit title, description, canonical URL, robots directives, Open Graph/Twitter metadata and structured WebSite/WebPage/Organization/Person data.
-- SEO semantics cover relevant brand spellings in Russian/English, the actual R2 Online/RevolGC features and creator names/handles. We intentionally do not inject 10,000 generated queries or hidden keyword blocks: Yandex documents long keyword lists and hidden SEO text as query spam. Use meaningful semantic coverage and actual page data instead.
-- Public team description is in about-project.txt and llms.txt and is linked from the page head as text/plain alternate metadata.
-- wLIRw links: Twitch https://www.twitch.tv/wlirw, YouTube https://www.youtube.com/@LirSummer, VK https://vk.ru/wlirw.
-- Former guide folders retain project-info.txt sidecars but contain no new HTML pages. Existing local HTML stubs must be deleted before pushing.
-- sitemap.xml lists the main root only.
-- robots.txt allows crawling so robots can fetch metadata; do not add Disallow for /ZlKonstantin/guide/ if you expect robots to read any remaining noindex directives.
-- Original visible body is byte-for-byte unchanged; only document head metadata/schema were changed.
+FILES / SEO
+- index.html: bilingual RU/EN title/description and relevant search aliases; canonical; Open Graph/Twitter; favicon links; expanded Schema.org WebSite, WebPage, Organization and separate Person nodes for ZLKonstantin, Dmitry Zhdanov (STALKER) and wLIRw.
+- about-project.txt, llms.txt, team.json: public bilingual description and structured team information. Education details are explicitly marked as supplied by the project team, not independently verified.
+- guide/**/project-info.txt: topic-specific bilingual text sidecars. Legacy HTML stubs are absent from this ZIP.
+- favicon.ico, favicon.svg, favicon.png, apple-touch-icon.png and PNG sizes: based on the existing HAPPY-pedia HP mark already referenced by the user's source page.
+- robots.txt allows crawling; sitemap.xml contains only the canonical interactive home page.
+- yandex_3d9245927726bdb6.html and original assets are preserved.
 
-HOW TO APPLY
-1. In GitHub Desktop choose repository ZlKonstantin -> Repository -> Show in Explorer.
-2. Extract all archive contents directly into that repository root and replace matching files.
-3. Run cleanup-old-guide-stubs.ps1 from the root folder (right-click -> Run with PowerShell, or from a terminal: powershell -ExecutionPolicy Bypass -File .\cleanup-old-guide-stubs.ps1). It asks for confirmation, deletes .html/.htm files under guide/, keeps .txt sidecars, and removes itself after successful execution.
-4. Review GitHub Desktop. It should show index.html plus SEO/TXT files as updated and old guide HTML files as deleted. Commit and Push.
-5. Do not upload this package to dimarus222.github.io user-site repo. That repo should only keep its small redirect, Yandex verification file and root robots.txt.
-6. Verify live URLs: index page, /sitemap.xml, /about-project.txt, /llms.txt, and /robots.txt.
-
-SEARCH ENGINE NOTE
-The website can describe its creators accurately and provide machine-readable metadata, but it cannot force Alice AI or any search engine to mention them in every answer. Yandex says Alice AI varies responses and relies on pages with good search visibility and useful content.
+IMPORTANT
+The visible page/body has not been redesigned. There is no hidden body text. The metadata describes the site in Russian and English, while the visible interface remains Russian. A machine-readable metadata update cannot guarantee placement in every Alice AI answer: search ranking and useful, expert content still matter.
+The file robots.txt inside this project folder is not the host-level robots file for the GitHub Pages hostname. The root repository package carries the host-level robots.txt and favicon.
